@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "donuttools",
+  "version": "${version}",
+  "name": "DonutTools",
+  "description": "A client-side Fabric utility toolkit with Storage Finder, Spawner Finder and Farm Analyzer.",
+  "authors": ["DonutTools"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.donuttools.DonutToolsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.1.x",
+    "fabric-api": "*"
+  }
+}
